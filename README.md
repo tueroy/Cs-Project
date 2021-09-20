@@ -35,7 +35,7 @@ public class Blackjack {
 
             playerhand += playerCardValue;
             if (select == 1) {//sets of different options user can pick
-
+                 playerhand += playerCardValue;
                 String playerhandshow;
                 if (playerhand == 21) {
 
